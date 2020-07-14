@@ -62,12 +62,21 @@
 各クラスは以下のようなパッケージ構造となっている
 
   |__ src  
-  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ makerGUI（マップ作成部分を構成する）   
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ manager（ゲーム全体を管理する，各パッケージ間の連携やモードの遷移等）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ method（プログラム全体の固定値やファイルのI/Oを管理）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ objOnMap（ゲーム画面に表示するキャラクターの管理）  
-  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ objOnMap（ゲーム画面に表示するキャラクターの管理）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ body（自機と敵）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ jiki（自機）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ enemy（敵）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ bullet（弾）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ panel（ゲーム画面の各モードの表示や処理）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ gameClear（ゲームクリア画面）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ gameOver（ゲームオーバー画面）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ makerGUI（ステージ作成画面）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ modeSelect（ゲームモード選択画面）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ playGame（ゲームプレイ中の画面）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ stageSelect（ステージ選択画面）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ titke（タイトル画面）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ shootingMaker（プログラムのメイン）  
   |   
   |__ data  
