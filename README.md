@@ -18,14 +18,14 @@
     リフレクションを用いているためクラス名などの情報を追加することなく，別の機能であるステージ作成部分に追加したキャラクターが反映される．
     キャラクターのひな型をabstractクラスとして定義し，そのクラスを実装することで類似したキャラクターを作ることも可能．
     abstractクラスはステージ作成画面では表示されない．
-  * 異なる機能間の関係を疎にし，部分的な更新ができる
+  * 異なる機能間の関係を疎になっている
     ゲームの描画部分と処理部分を分離し，Managerクラスを作成することでそれぞれを管理している．
     これにより，描画と処理を別々に変更することができ，片方の変更がもう片方に影響しにくい構成になっている．
   
 
 ## 操作方法
-* ゲームプレイ/テストプレイモード
-キーボードのみ可能
+* ゲームプレイ/テストプレイモード  
+キーボードのみ可能  
 
 | キー | 動作 |
 |:-----------|:------------|
@@ -38,8 +38,8 @@
 | j（ジェー）                   |     自爆（ゲームオーバーに遷移） |
 | c（シー）                     |     当たり判定の表示  （デバッグ用，プログラム内で有効無効を指定） |
 
-* ステージの作成
-マウス操作のみ可能
+* ステージの作成  
+マウス操作のみ可能  
 
 | マウス     |	場所        |	動作        |
 |:-----------|:------------|:------------|
@@ -50,8 +50,8 @@
 |	    〃     | 各種ボタン                      |	ボタン名にある動作                        |
 | 右クリック |	マップ上（画面左側）	          | 設置したキャラクターの削除                 |
 
-* その他
-マウス，キーボード操作ともに可能
+* その他  
+マウス，キーボード操作ともに可能  
 
 | 操作 |	場所 |	動作 |
 |:-----------|:------------|:------------|
@@ -132,4 +132,4 @@
 | EnemyBigBee	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/bee.png?raw=true)　| 	横向きの8の字型	| 8方向自機狙い弾を3連射	HP30| 
 | EnemyLeftHand	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/lefthand.png?raw=true)　| 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
 | EnemyRightHand	 | 　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/righthand.png?raw=true)　| 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
-| EnemyBigFace	|　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true) |  動かない	| 両手がない場合自機狙いの大きな弾を連射	| HP30EnemyLeftHandとEnemyRightHandを保持<br>両手の有無で行動が変化<br>本体のHPが0になると両手のHPも0になる| 
+| EnemyBigFace	|　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true) |  動かない	| 両手がない場合自機狙いの大きな弾を連射	| HP30<br>EnemyLeftHandとEnemyRightHandを保持<br>両手の有無で行動が変化<br>本体のHPが0になると両手のHPも0になる| 
