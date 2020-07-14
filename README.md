@@ -1,6 +1,4 @@
 # shootingMaker
-マ.リ.オ.メ.ー.カ.ーに触発されたシューティングゲームです．
-# shootingMaker
 マ.リ.オ.メ.ー.カ.ーに触発されたシューティングゲームです．  
 
 ## ゲームをプレイする場合
@@ -114,7 +112,7 @@
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| EnemySmallFace | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true) | 動かない	| 自機狙い弾 | 発射間隔1秒	| HP10画像はEnemyBigFaceの使いまわし| 
+| EnemySmallFace | <img src="https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true" width="48px"> | 動かない	| 自機狙い弾 | 発射間隔1秒	| HP10画像はEnemyBigFaceの使いまわし| 
 
 * 横幅8マスの敵
 
