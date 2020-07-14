@@ -67,12 +67,16 @@
 
   |__ src  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ manager（ゲーム全体を管理する，各パッケージ間の連携やモードの遷移等）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ method（プログラム全体の固定値やファイルのI/Oを管理）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ objOnMap（ゲーム画面に表示するキャラクターの管理）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ body（自機と敵）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ jiki（自機）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ enemy（敵）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ bullet（弾）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ panel（ゲーム画面の各モードの表示や処理）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ gameClear（ゲームクリア画面）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ gameOver（ゲームオーバー画面）  
@@ -81,20 +85,22 @@
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ playGame（ゲームプレイ中の画面）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ stageSelect（ステージ選択画面）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ titke（タイトル画面）  
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ shootingMaker（プログラムのメイン）  
   |   
   |__ data  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ stages（ここ以下にプリセットのステージデータ）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ images（（ここ以下に画像データ）  
+  |
   |__ exstages(ここ以下に作成したステージが保存される)    
 
-## キャラクターの追加（プログラムに加筆必要）
+## キャラクターの追加（プログラムの加筆が必要）
   以下の手順でキャラクターの追加が可能
   1. Bodyクラス/Jikiクラス/Bulletクラスを継承した新たなクラスをそれぞれ下位のパッケージに作成
   2. Factoryへ作成したクラスのコンストラクタを登録
   3. data/imagesに使用する画像の追加（必要に応じて）
     
-  * 注意事項
+  * 注意事項  
   以下の点に注意すること
   1. キャラクターは特定の引数を持つコンストラクタ（現在は(float, float)または(float, float, ArrayList)）により生成される．
   2. 外部でインスタンスを生成する用の引数なしのコンストラクタが必要．
@@ -105,8 +111,8 @@
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| Aarwin	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/arwin.png?raw=true)　| 	慣性のある加速型	 | 上方向に飛ぶ四角弾	| 上級者向け| 
-| Goddess	 | 　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/goddess.png?raw=true)　| 	慣性なしの等速型	 | 上方向に飛ぶ四角弾	| 初心者向け| 
+| Aarwin	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/arwin.png?raw=true)　| 	慣性のある加速型	 | 上方向に飛ぶ四角弾	| 上級者向け | 
+| Goddess	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/goddess.png?raw=true)　| 	慣性なしの等速型	 | 上方向に飛ぶ四角弾	| 初心者向け | 
 
 * 横幅1マスの敵
 
