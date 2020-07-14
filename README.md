@@ -96,31 +96,31 @@
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| Aarwin	 | | 	慣性のある加速型	 | 上方向に飛ぶ四角弾	| 上級者向け| 
-| Goddess	 | | 	慣性なしの等速型	 | 上方向に飛ぶ四角弾	| 初心者向け| 
+| Aarwin	 | https://github.com/SaturnValley/shootingMaker/blob/master/data/images/arwin.png?raw=true　| 	慣性のある加速型	 | 上方向に飛ぶ四角弾	| 上級者向け| 
+| Goddess	 | 　https://github.com/SaturnValley/shootingMaker/blob/master/data/images/goddess.png?raw=true　| 	慣性なしの等速型	 | 上方向に飛ぶ四角弾	| 初心者向け| 
 
 * 横幅1マスの敵
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| EmenyBlackD	|  	| なし	| 花火のように一定期間ではじける弾	| なし| 
-| EmenyBlackO	 | 	| 円運動	| 自機狙い8方向弾	| なし| 
-| EmenyBlackT	 | 	| T字型で往復	| 自機狙い弾3連射	| なし| 
-| EmenyBlackU	 | 	| U字型で往復	| ３Way自機狙い弾	| なし| 
-| EmenyBlackR	 | 	| 階段状で往復	| X軸方向にくっついたり離れたりする自機狙い弾	| なし| 
-| EmenyYellowO	|  |  	早くて大きい円運動	| ８Wayの自機狙い弾と偶数弾（自機外し）を交互	| HP3| 
+| EmenyBlackD	|  https://github.com/SaturnValley/shootingMaker/blob/master/data/images/d.png?raw=true　	| なし	| 花火のように一定期間ではじける弾	| なし| 
+| EmenyBlackO	 |　https://github.com/SaturnValley/shootingMaker/blob/master/data/images/o.png?raw=true 	| 円運動	| 自機狙い8方向弾	| なし| 
+| EmenyBlackT	 | https://github.com/SaturnValley/shootingMaker/blob/master/data/images/t.png?raw=true	| T字型で往復	| 自機狙い弾3連射	| なし| 
+| EmenyBlackU	 | https://github.com/SaturnValley/shootingMaker/blob/master/data/images/u.png?raw=true	| U字型で往復	| ３Way自機狙い弾	| なし| 
+| EmenyBlackR	 | https://github.com/SaturnValley/shootingMaker/blob/master/data/images/r.png?raw=true	| 階段状で往復	| X軸方向にくっついたり離れたりする自機狙い弾	| なし| 
+| EmenyYellowO	| https://github.com/SaturnValley/shootingMaker/blob/master/data/images/yo.png?raw=true |  	早くて大きい円運動	| ８Wayの自機狙い弾と偶数弾（自機外し）を交互	| HP3| 
 
 * 横幅3マスの敵
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| EnemySmallFace	 | 	動かない	| 自機狙い弾 | 発射間隔1秒	| HP10画像はEnemyBigFaceの使いまわし| 
+| EnemySmallFace	 https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true| 	動かない	| 自機狙い弾 | 発射間隔1秒	| HP10画像はEnemyBigFaceの使いまわし| 
 
 * 横幅8マスの敵
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| EnemyBigBee	 | | 	横向きの8の字型	| 8方向自機狙い弾を3連射	HP30| 
-| EnemyLeftHand	 | | 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
-| EnemyRightHand	 | | 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
-| EnemyBigFace	| |  	動かない	| 両手がない場合自機狙いの大きな弾を連射	| HP30EnemyLeftHandとEnemyRightHandを保持  両手の有無で行動が変化  本体のHPが0になると両手のHPも0になる| 
+| EnemyBigBee	 | https://github.com/SaturnValley/shootingMaker/blob/master/data/images/bee.png?raw=true　| 	横向きの8の字型	| 8方向自機狙い弾を3連射	HP30| 
+| EnemyLeftHand	 | https://github.com/SaturnValley/shootingMaker/blob/master/data/images/lefthand.png?raw=true　| 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
+| EnemyRightHand	 | 　https://github.com/SaturnValley/shootingMaker/blob/master/data/images/righthand.png?raw=true　| 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
+| EnemyBigFace	|　https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true |  	動かない	| 両手がない場合自機狙いの大きな弾を連射	| HP30EnemyLeftHandとEnemyRightHandを保持<bt>両手の有無で行動が変化<br>本体のHPが0になると両手のHPも0になる| 
