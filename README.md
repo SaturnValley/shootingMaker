@@ -103,8 +103,8 @@
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| EmenyBlackD	|  ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/d.png?raw=true)　	| なし	| 花火のように一定期間ではじける弾	| なし| 
-| EmenyBlackO	 |　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/o.png?raw=true) 	| 円運動	| 自機狙い8方向弾	| なし| 
+| EmenyBlackD	| ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/d.png?raw=true)　	| なし	| 花火のように一定期間ではじける弾	| なし| 
+| EmenyBlackO	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/o.png?raw=true) 	| 円運動	| 自機狙い8方向弾	| なし| 
 | EmenyBlackT	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/t.png?raw=true)	| T字型で往復	| 自機狙い弾3連射	| なし| 
 | EmenyBlackU	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/u.png?raw=true)	| U字型で往復	| ３Way自機狙い弾	| なし| 
 | EmenyBlackR	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/r.png?raw=true)	| 階段状で往復	| X軸方向にくっついたり離れたりする自機狙い弾	| なし| 
@@ -114,7 +114,7 @@
 
 | 名前	| 画像	| 動き	| 弾	| 備考| 
 |:-----------|:------------|:------------|:------------|:------------|
-| EnemySmallFace	 ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true) | 	動かない	| 自機狙い弾 | 発射間隔1秒	| HP10画像はEnemyBigFaceの使いまわし| 
+| EnemySmallFace | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true) | 動かない	| 自機狙い弾 | 発射間隔1秒	| HP10画像はEnemyBigFaceの使いまわし| 
 
 * 横幅8マスの敵
 
@@ -123,4 +123,4 @@
 | EnemyBigBee	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/bee.png?raw=true)　| 	横向きの8の字型	| 8方向自機狙い弾を3連射	HP30| 
 | EnemyLeftHand	 | ![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/lefthand.png?raw=true)　| 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
 | EnemyRightHand	 | 　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/righthand.png?raw=true)　| 	円運動 自機が近づくとその位置に突進して戻る	| なし	HP15| 
-| EnemyBigFace	|　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true) |  	動かない	| 両手がない場合自機狙いの大きな弾を連射	| HP30EnemyLeftHandとEnemyRightHandを保持<bt>両手の有無で行動が変化<br>本体のHPが0になると両手のHPも0になる| 
+| EnemyBigFace	|　![](https://github.com/SaturnValley/shootingMaker/blob/master/data/images/face.png?raw=true) |  動かない	| 両手がない場合自機狙いの大きな弾を連射	| HP30EnemyLeftHandとEnemyRightHandを保持<br>両手の有無で行動が変化<br>本体のHPが0になると両手のHPも0になる| 
