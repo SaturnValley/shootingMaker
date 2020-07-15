@@ -1,5 +1,6 @@
 # shootingMaker
 マ.リ.オ.メ.ー.カ.ーに触発されたシューティングゲームです．  
+言語はJava，開発環境はeclipseです．
 
 ## ゲームをプレイする場合
   shootingMakerディレクトリ内のshootingMaker.jarをダウンロードし，以下のディレクトリ構造に配置してください．  
