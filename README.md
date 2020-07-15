@@ -93,7 +93,7 @@
   |__ data  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ stages（ここ以下にプリセットのステージデータ）  
   |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|__ images（（ここ以下に画像データ）  
-  |
+  |  
   |__ exstages(ここ以下に作成したステージが保存される)    
 
 ## キャラクターの追加（プログラムの加筆が必要）
